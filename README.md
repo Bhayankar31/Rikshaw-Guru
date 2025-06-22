@@ -44,7 +44,6 @@
         
         <!-- User Type Selection -->
         <div>
-          <label for="userType" class="block mb-2 text-gray-700 font-semibold">User Type</label>
           <select id="userType" class="w-full rounded-lg bg-[#f3f3f3] py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#4f6ef7] transition" required>
             <option value="customer">Customer</option>
             <option value="dealer">Dealer</option>
@@ -53,7 +52,6 @@
 
         <!-- User ID -->
         <div class="relative">
-          <label for="userId" class="block mb-2 text-gray-700 font-semibold">User ID</label>
           <input
             type="text"
             id="userId"
@@ -62,13 +60,13 @@
             required
             autocomplete="username"
             inputmode="text"
+            aria-label="User ID"
           />
           <i class="fas fa-user absolute right-4 top-[38px] text-gray-500 pointer-events-none"></i>
         </div>
 
         <!-- Password -->
         <div class="relative">
-          <label for="password" class="block mb-2 text-gray-700 font-semibold">Password</label>
           <input
             type="password"
             id="password"
@@ -76,6 +74,7 @@
             class="w-full rounded-lg bg-[#f3f3f3] py-3 px-4 pr-12 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#4f6ef7] transition"
             required
             autocomplete="current-password"
+            aria-label="Password"
           />
           <i class="fas fa-lock absolute right-4 top-[38px] text-gray-500 pointer-events-none"></i>
         </div>
