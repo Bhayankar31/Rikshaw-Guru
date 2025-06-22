@@ -62,7 +62,7 @@
             inputmode="text"
             aria-label="User ID"
           />
-          <i class="fas fa-user absolute right-4 top-[38px] text-gray-500 pointer-events-none"></i>
+          <i class="fas fa-user absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 pointer-events-none"></i>
         </div>
 
         <!-- Password -->
@@ -76,7 +76,7 @@
             autocomplete="current-password"
             aria-label="Password"
           />
-          <i class="fas fa-lock absolute right-4 top-[38px] text-gray-500 pointer-events-none"></i>
+          <i class="fas fa-lock absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 pointer-events-none"></i>
         </div>
 
         <!-- Submit Button -->
