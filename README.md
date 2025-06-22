@@ -16,10 +16,10 @@
   </style>
 </head>
 <body class="min-h-screen bg-gradient-to-b from-[#d1d9ff] to-[#e3e8ff] flex items-center justify-center p-6">
-  <div class="bg-white rounded-[40px] shadow-[0_10px_30px_rgba(0,0,0,0.1)] flex max-w-4xl w-full max-h-[500px] overflow-hidden flex-col md:flex-row">
+  <div class="bg-white rounded-[40px] shadow-[0_10px_30px_rgba(0,0,0,0.1)] flex max-w-4xl w-full max-h-[600px] overflow-hidden flex-col md:flex-row">
     
     <!-- Left Panel -->
-    <div class="bg-[#7399ff] flex flex-col justify-center items-center flex-[1.2] rounded-t-[40px] md:rounded-l-[40px] md:rounded-tr-none p-10 text-white">
+    <div class="bg-[#7399ff] flex flex-col justify-center items-center flex-[1.2] rounded-t-[40px] md:rounded-l-[40px] md:rounded-tr-none p-10 text-white min-h-[220px] md:min-h-auto">
       <h1 class="text-4xl font-extrabold leading-tight text-center mb-6">Welcome</h1>
       <p class="text-lg text-center mb-10">Please login as Customer or Dealer</p>
       <i class="fas fa-users text-6xl"></i>
@@ -80,7 +80,7 @@
       const userId = document.getElementById("userId").value;
       const password = document.getElementById("password").value;
 
-      alert(Logging in as ${userType.toUpperCase()} with ID: ${userId});
+      alert(`Logging in as ${userType.toUpperCase()} with ID: ${userId}`);
     }
   </script>
 </body>
