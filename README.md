@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
   <title>Login Page</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link
@@ -15,18 +15,18 @@
     }
   </style>
 </head>
-<body class="min-h-screen bg-gradient-to-b from-[#d1d9ff] to-[#e3e8ff] flex items-center justify-center p-6">
-  <div class="bg-white rounded-[40px] shadow-[0_10px_30px_rgba(0,0,0,0.1)] flex max-w-4xl w-full max-h-[600px] overflow-hidden flex-col md:flex-row">
+<body class="min-h-screen bg-gradient-to-b from-[#d1d9ff] to-[#e3e8ff] flex items-center justify-center p-4 sm:p-6">
+  <div class="bg-white rounded-[40px] shadow-[0_10px_30px_rgba(0,0,0,0.1)] flex max-w-4xl w-full max-h-[calc(100vh-48px)] overflow-auto flex-col md:flex-row">
     
     <!-- Left Panel -->
-    <div class="bg-[#7399ff] flex flex-col justify-center items-center flex-[1.2] rounded-t-[40px] md:rounded-l-[40px] md:rounded-tr-none p-10 text-white min-h-[220px] md:min-h-auto">
+    <div class="bg-[#7399ff] flex flex-col justify-center items-center flex-[1.2] rounded-t-[40px] md:rounded-l-[40px] md:rounded-tr-none p-8 sm:p-10 text-white min-h-[260px] md:min-h-auto">
       <h1 class="text-4xl font-extrabold leading-tight text-center mb-6">Welcome</h1>
       <p class="text-lg text-center mb-10">Please login as Customer or Dealer</p>
       <i class="fas fa-users text-6xl"></i>
     </div>
 
     <!-- Right Panel -->
-    <div class="flex-[1.8] p-8 md:p-12 flex flex-col justify-center rounded-b-[40px] md:rounded-r-[40px] md:rounded-bl-none bg-white">
+    <div class="flex-[1.8] p-6 sm:p-8 md:p-12 flex flex-col justify-center rounded-b-[40px] md:rounded-r-[40px] md:rounded-bl-none bg-white min-h-[320px] md:min-h-auto">
       <h2 class="text-3xl font-extrabold text-gray-800 mb-6">Login</h2>
       <form class="space-y-6" onsubmit="handleLogin(event)">
         
